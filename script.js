@@ -12,7 +12,7 @@ function calculate() {
     // 3. DOM Manipulation: Show the result on the screen
     // .toFixed(2) ensures we only show 2 decimal places (like $10.50)
     if (!isNaN(perPerson) && perPerson > 0) {
-        document.getElementById('perPersonResult').innerText = "$" + perPerson.toFixed(2);
+        document.getElementById('perPersonResult').innerText = "PKR" + perPerson.toFixed(2);
     } else {
         alert("Please enter valid numbers!");
     }
